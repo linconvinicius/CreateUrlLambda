@@ -1,4 +1,4 @@
-```markdown
+
 # CreateUrlLambda
 
 ## Descrição
@@ -10,17 +10,18 @@ Este projeto é uma função AWS Lambda para encurtar URLs. Ele recebe uma URL o
 - Java 17
 - Maven
 
+
 ## Dependências
-
-- `com.amazonaws:aws-lambda-java-core:1.2.1`
-- `com.amazonaws:aws-lambda-java-log4j2:1.2.0`
-- `org.projectlombok:lombok:1.18.34`
-- `com.fasterxml.jackson.core:jackson-databind:2.12.3`
-
+```
+- com.amazonaws:aws-lambda-java-core:1.2.1
+- com.amazonaws:aws-lambda-java-log4j2:1.2.0
+- org.projectlombok:lombok:1.18.34
+- com.fasterxml.jackson.core:jackson-databind:2.12.3
+```
 ## Estrutura do Projeto
-
-- `src/main/java/com/rocketseat/createUrlShortner/Main.java`: Classe principal que implementa a função Lambda.
-
+```
+- src/main/java/com/rocketseat/createUrlShortner/Main.java: Classe principal que implementa a função Lambda.
+```
 ## Como Construir
 
 Para construir o projeto, execute o seguinte comando Maven:
@@ -55,4 +56,3 @@ A resposta será um JSON com o código curto:
 
 ## Aviso
 Esse projeto faz parte da imersão backend da Rocketseat.
-```
