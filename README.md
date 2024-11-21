@@ -1,9 +1,16 @@
 
 # CreateUrlLambda
 
-## Descrição
+## O que é o projeto?
 
 Este projeto é uma função AWS Lambda para encurtar URLs. Ele recebe uma URL original e um tempo de expiração, e retorna um código curto que pode ser usado para acessar a URL original.
+
+## Descrição
+O projeto foi desenvolvido em Java e utiliza a biblioteca AWS Lambda Java Core para implementar a função Lambda. Ele também usa a biblioteca Lombok para gerar automaticamente os métodos `getters` e `setters` e o construtor de objetos, e a biblioteca Jackson para serializar e deserializar objetos JSON.
+
+## Arquitetura do projeto
+
+<img src="img.png">
 
 ## Requisitos
 
